@@ -1,0 +1,24 @@
+{
+  "results_dir": "results",
+  "default_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+  "user_agent_name": "EnhancedCrawlerBot",
+  "proxy_user": "",
+  "proxy_pass": "",
+  "browser_args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu", "--disable-dev-shm-usage"],
+  "browser_context_args": {
+    "viewport": {"width": 1920, "height": 1080}
+  },
+  "max_concurrent_pages": 3,
+  "max_retries": 2,
+  "navigation_timeout": 20000,
+  "state_save_interval": 20,
+  "log_level": "INFO",
+  "target_domains": ["https://nykaafashion.com/"],
+  "mongodb_uri": "mongodb://localhost:27017/",
+  "mongodb_db": "crawler_db",
+  "max_depth": 2,
+  "max_urls": 500,
+  "max_runtime": 1800,
+  "max_links_per_page": 50,
+  "queue_save_limit": 1000
+} 
