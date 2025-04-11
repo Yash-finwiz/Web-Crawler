@@ -1,13 +1,3 @@
-# Enhanced with:
-# - Rotating user agents and proxies
-# - Improved stealth techniques
-# - Robots.txt compliance
-# - Exponential backoff retries
-# - Bloom filter for URL tracking
-# - MongoDB storage
-# - Configurable parameters
-# - Advanced detection avoidance
-
 import asyncio
 import re
 import csv
